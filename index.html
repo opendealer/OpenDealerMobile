@@ -7,31 +7,29 @@
 	  <link rel="stylesheet" href="master.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	  <script type="text/javascript" charset="utf-8" src="phonegap.0.9.4.js"></script>
 	  <script type="text/javascript" charset="utf-8" src="main.js"></script>
-	  <script language="javascript" type="text/javascript" charset="utf-8" src="opendealer.js"></script>
 	  <style media="all">
 	  	body { margin: 0px; padding: 0px; }
-		#loginTable { background-image: url(images/login_bg.png); background-position: top center; background-repeat: no-repeat; padding-top: 50px; margin: auto; }
+		#loginTable { background-image: url(images/login_bg.png); background-position: top center; background-repeat: no-repeat; padding: 85px 0px 85px 0px; margin: auto; }
 	  </style>
   </head>
   <body onLoad="init();" id="stage" class="theme">
   	<form action="http://d.opendealer.net/login.cfm" method="post">
 	<div id="loginTable">
-	<table width="100%" border="0">
-		<tr>
-			<td width="50%">Username:</td>
-			<td width="50%"><input type="text" name="username" value="" /></td>
-		</tr>
-		<tr>
-			<td>Password</td>
-			<td><input type="password" name="password" value="" /></td>
-		</tr>
-		<tr>
-			<td>&nbsp;</td>
-			<td><input type="submit" value="Login" /></td>
-		</tr>
-	</table>
+		<table border="0" align="center"><tr><td>
+		Username:
+		<br />
+		<input type="text" name="username" value="" /><br />
+		<br />
+		Password:<br />
+		<input type="password" name="password" value="" /><br />
+		<br />
+		<input type="submit" value="Login" />
+		<br />
+		<br />
+		<strong>Need Help?</strong><br />
+		<strong style="color: #990000">Call:</strong> 877-OPEN-DLR For Support.
+		</td></tr></table>
 	</div>
-	<a href="javascript:takeCarImage()">Take Pic</a>
 	</form>
   </body>
 </html>
