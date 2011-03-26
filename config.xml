@@ -1,10 +1,18 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
-        defaultlocale = "en-us">
+        defaultlocale = "en-us"
+		id="net.opendealer.mobile"
+		version="1.0.1">
 
-   <name short="OpenDealer" xml:lang="en-us">
-    OpenDealer Mobile
-   </name>
+  <name short="OpenDealer" xml:lang="en-us">
+   OpenDealer Mobile
+  </name>
    
+  <feature name="http://api.phonegap.com/1.0/camera">
+   <param name="autofocus" value="true"/>
+  </feature>
+  <feature name="http://api.phonegap.com/1.0/geolocation"></feature>
+  <feature name="http://api.phonegap.com/1.0/notification"></feature>
+  
   <description>
     OpenDealer Mobile Management Tool
   </description>
